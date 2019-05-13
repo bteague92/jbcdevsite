@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <link rel="stylesheet" href="../bulma-0.7.4/css/bulma.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav
+      class="navbar is-flex-desktop is-light"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/index.html">
+          <img src="/Artboard 1.png" />
+        </a>
+
+        <a
+          onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="/index.html" class="navbar-item">
+            Home
+          </a>
+
+          <a class="navbar-item" href="theTeam.html">
+            The Team
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-item" href="Contact.html">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="miniPageHeaderPrint">
+        <div class="header__icon-box">
+          <h1 class="headerAboutUs">Contact Us</h1>
+        </div>
+      </div>
+    </header>
+    <section class="section">
+      <div class="container">
+        <p class="contactUsContent">
+          Need to get ahold of the team? You can contact us through any of our
+          social media pages or submit the form below.
+        </p>
+      </div>
+      <div class="contactUsForm">
+        <form class="" action="POST">
+          <div>
+            <div class="contactUsFormItem">
+              <h1 class="contactFormHeaders">First Name</h1>
+              <textarea
+                class="input is-rounded is-primary"
+                name="Message"
+                id="contactFormFirstName"
+                cols="40"
+                rows="1"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div>
+              <h1 class="contactFormHeaders">Last Name</h1>
+              <textarea
+                class="input is-rounded is-primary"
+                name="Message"
+                id="contactFormLastName"
+                cols="40"
+                rows="1"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </div>
+          <div>
+            <h1 class="contactFormHeaders">Email</h1>
+            <textarea
+              class="input is-rounded is-primary"
+              name="Message"
+              id="contactFormEmail"
+              cols="80"
+              rows="1"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div>
+            <h1 class="contactFormHeaders">Phone Number</h1>
+            <textarea
+              class="input is-rounded is-primary"
+              name="Message"
+              id="contactFormPhoneNumber"
+              cols="80"
+              rows="1"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div>
+            <h1 class="contactFormHeaders">Message</h1>
+            <textarea
+              class="input is-rounded is-primary"
+              name="Message"
+              id="contactFormMessage"
+              cols="80"
+              rows="1"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div class="contactFormButton">
+            <button class="button is-success">Submit</button>
+          </div>
+        </form>
+        <div class="contactUsIcons section">
+          <div class="container">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/Jungle-Bunch-Creations-360239224617937/?modal=admin_todo_tour"
+              ><i class="contactUsIconsInner fab fa-facebook-square fa-4x"></i
+            ></a>
+            <a href="#"
+              ><i class="contactUsIconsInner fab fa-twitter-square fa-4x"></i
+            ></a>
+            <a href="#"
+              ><i class="contactUsIconsInner fab fa-instagram fa-4x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="page-footer lime darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">JUNGLE BUNCH CREATIONS</h5>
+            <p class="grey-text text-lighten-4">
+              You can use rows and columns here to organize your footer content.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Social Platforms</h5>
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  class="grey-text text-lighten-3"
+                  href="https://www.facebook.com/Jungle-Bunch-Creations-360239224617937/?modal=admin_todo_tour"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!">Instagram</a>
+              </li>
+              <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 Copyright JUNGLE BUNCH CREATIONS
+          <a class="grey-text text-lighten-4 right" href="#!"
+            >junglebunchcreations@gmail.com</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

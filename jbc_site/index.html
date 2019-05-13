@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jungle Bunch Creations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="Artboard 1.png" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="bulma-0.7.4/css/bulma.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pontano+Sans|Istok+Web"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/home.js"></script>
+
+    <!-- Materialize css tags -->
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar is-flex-desktop is-light"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="Artboard 1.png" />
+        </a>
+
+        <a
+        onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="/index.html" class="navbar-item">
+            Home
+          </a>
+
+          <a class="navbar-item" href="Nav_Pages\theTeam.html">
+            The Team
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-item" href="Nav_Pages\Contact.html">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="header__print"></div>
+      <div class="header__icon-box">
+        <img class="header__icon" src="Artboard 1.png" />
+        <h1 class="header__main-text">A website development company</h1>
+      </div>
+    </header>
+
+    <div id="home-row" class="row">
+      <div id="home-row__item" class="col s4">
+        <i class="material-icons large">smartphone</i>
+        <h4 class="home-row__heading">Mobile Apps</h4>
+        <p class="home--row__subheading">
+          Get beautiful mobile applications designed and built for your company.
+          Our mobile applications are coded to match your unique brand and to
+          attract customers from different platforms. Are you ready to expand?
+        </p>
+      </div>
+      <div id="home-row__item" class="col s4">
+        <i class="material-icons large">today</i>
+        <h4 class="home-row__heading">24/7 Support</h4>
+        <p class="home--row__subheading">
+          We don't just build your solutions, we support them whenever it's
+          needed. Maintaining a website or a mobile app isn't easy work, but it
+          is the work that we enjoy. It's our dedication to your brand that
+          ensures continued success!
+        </p>
+      </div>
+      <div id="home-row__item" class="col s4">
+        <i class="material-icons large">web</i>
+        <h4 class="home-row__heading">Websites</h4>
+        <p class="home--row__subheading">
+          Building robust and scalable websites is what we're good at, just tell
+          us what you need and we'll handle the rest! No matter what industry
+          your company is in, we can bring your online presence to the next
+          level.
+        </p>
+      </div>
+    </div>
+
+    <section id="level-section" class="level">
+      <div class="level-left">
+        <div class="level-item">
+          <div id="left-level-one">
+            <div class="left-inners">
+              <h4>We know the web</h4>
+              <p class="paragraphs">
+                There are tons of other website development companies out there,
+                and we know that most are great! So why would you choose Jungle
+                Bunch Creations to build your website? It's simple, we know the
+                web. We've spent countless hours studying and creating solutions
+                so that you can get the best results!
+              </p>
+              <a
+                href="Nav_Pages\Contact.html"
+                class="waves-effect waves-light btn-large lime darken-4"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="level-right">
+        <div class="level-item">
+          <div id="right-level-one">
+            <img class="level-image" src="./img/web_dev_image_2.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="level-section" class="level">
+      <div class="level-left">
+        <div class="level-item">
+          <div id="left-level-two">
+            <img class="level-image" src="./img/web_dev_image_3.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="level-right">
+        <div class="level-item">
+          <div id="right-level-two">
+            <div class="left-inners has-text-centered">
+              <h4>Production Ready</h4>
+              <i class="material-icons large center">developer_mode</i>
+              <br />
+              <a
+                href="Nav_Pages\Contact.html"
+                class="waves-effect waves-light btn-large lime darken-4"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="hero-container">
+      <section class="hero is-medium is-light is-bold">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              Who is Jungle Bunch Creations?
+            </h1>
+            <h2 class="subtitle">
+              Here are a few facts to know about our company...
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <div id="tile--parent" class="centerText tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification">
+                <p class="title">Full Service</p>
+                <p class="subtitle">
+                  We bring you everything needed to up your online presence.
+                  From website design and development, to social media branding
+                  and marketing!
+                </p>
+              </article>
+              <article class="tile is-child notification">
+                <p class="title">Customized Cost</p>
+                <p class="subtitle">
+                  No two companies are the same, so why should their pricing be?
+                </p>
+                <br />
+                <p class="subtitle">
+                  We provide customized pricing solutions that are 100% tailored
+                  to the clients needs.
+                </p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification has-text-centered">
+                <p class="title">The creators</p>
+                <p class="subtitle">Your service is in good hands!</p>
+                <img class="circle" src="./img/caira_image.jpg" alt="" />
+                <img class="circle" src="./img/brandon_image.jpg" alt="" />
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification">
+              <p class="title">Our Mission</p>
+              <p class="subtitle">
+                Jungle Bunch Creations is set out to help businesses prosper. We
+                recognize the importance of a proper online presence and are
+                determined to create customized brands for every company we
+                align with.
+              </p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification">
+            <div class="content">
+              <p class="title">A brief history...</p>
+              <p class="subtitle">
+                Jungle Bunch creations is a newly founded startup with high
+                quality service in mind. Our team is small but our results are
+                not! Each member of our team comes equiped with the skills it
+                takes to solve problems and to build amazing products for our
+                customers. We thrive off of the success of our partnered
+                companies and are determined to understand what they need to
+                widen out and scale at remarkable rates. We are always looking
+                for new brands to help, if you're interested in learning about
+                we can do for your company, fill out the contact form below!
+              </p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div id="footer-container">
+      <footer class="page-footer lime darken-4">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">JUNGLE BUNCH CREATIONS</h5>
+              <p class="grey-text text-lighten-4">
+                You can use rows and columns here to organize your footer
+                content.
+              </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Social Platforms</h5>
+              <ul>
+                <li>
+                  <a
+                    target="_blank"
+                    class="grey-text text-lighten-3"
+                    href="https://www.facebook.com/Jungle-Bunch-Creations-360239224617937/?modal=admin_todo_tour"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a class="grey-text text-lighten-3" href="#!">Instagram</a>
+                </li>
+                <li>
+                  <a class="grey-text text-lighten-3" href="#!">Twitter</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            © 2019 Copyright JUNGLE BUNCH CREATIONS
+            <a class="grey-text text-lighten-4 right" href="#!"
+              >junglebunchcreations@gmail.com</a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

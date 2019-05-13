@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Team</title>
+
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <link rel="stylesheet" href="../bulma-0.7.4/css/bulma.min.css"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+     <!-- Include JQuery and script file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../scripts/team.js"></script>
+  </head>
+
+  <body>
+
+    <nav
+      class="navbar is-flex-desktop is-light"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/index.html">
+          <img src="/Artboard 1.png" />
+        </a>
+
+        <a
+        onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="../index.html" class="navbar-item">
+            Home
+          </a>
+
+          <a class="navbar-item" href="theTeam.html">
+            The Team
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-item" href="Contact.html">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="team">
+      <div class="team__text">
+        <header>
+          <div class="miniPageHeaderPrint">
+            <div class="header__icon-box">
+              <h1 class="headerAboutUs">Meet The Team</h1>
+            </div>
+          </div>
+        </header>
+    </div>
+
+
+      <!-- BEGINNING OF CAROUSEL CODE-->
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides slide-1 fade">
+          <div class="numbertext">1 / 2</div>
+          <img src="../img\web_dev_image_6.jpg"  style="width:100%">
+          <div class="about-developer">
+            <img
+                class="circleImage"
+                src="../img\brandon_image.jpg"
+                alt="Placeholder image"/>
+                <div class="teamNameDesc">
+                <h1 class="teamName">Brandon Teague</h1>
+                <p class="centerTeamText">(Co-founder, Developer) I'm an avid learner who enjoys helping people and solving problems. I understand that knowledge is power, and I will never be done learning. I'm here to learn alongside my team, and our clients, and deliver the best service around.</p>
+              </div>
+          </div>
+          <div class="text">Web Developer</div>
+        </div>
+
+        <div class="mySlides slide-2 fade">
+          <div class="numbertext">2 / 2</div>
+          <img src="../img\web_dev_image_4.jpg" style="width:100%">
+          <div class="about-developer">
+            <img
+                class="circleImage"
+                src="../img\caira_image.jpg"
+                alt="Placeholder image"/>
+                <div class="teamNameDesc">
+                <h1 class="teamName">C'Aira Shields</h1>
+                <p class="centerTeamText">(Co-founder, Developer) I'm an avid learner who enjoys helping people and solving problems. I understand that knowledge is power, and I will never be done learning. I'm here to learn alongside my team, and our clients, and deliver the best service around.</p>
+              </div>
+          </div>
+          <div class="text">Web Developer</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+      </div>
+
+    <!-- END OF CAROUSEL CODE --> 
+
+
+    <div class="ourExperience">
+      <div class="ourExperienceHeader">
+        <h1>Our Experience</h1>
+      </div>
+      <div class="ourExperienceContent">
+        <p>Spicy jalapeno bacon ipsum dolor amet shank meatloaf capicola bresaola sirloin venison frankfurter, pork spare ribs drumstick rump chuck picanha. Salami buffalo rump, meatball turducken ham hock ribeye short ribs landjaeger tongue pork chop capicola. Tail porchetta bacon corned beef doner buffalo. Cow pork loin hamburger, burgdoggen pancetta tenderloin tail chuck rump drumstick. Beef turkey bresaola alcatra.Spicy jalapeno bacon ipsum dolor amet shank meatloaf capicola bresaola sirloin venison frankfurter, pork spare ribs drumstick rump chuck picanha. Salami buffalo rump, meatball turducken ham hock ribeye short ribs landjaeger tongue pork chop capicola. Tail porchetta bacon corned beef doner buffalo. Cow pork loin hamburger, burgdoggen pancetta tenderloin tail chuck rump drumstick. Beef turkey bresaola alcatra.</p>
+      </div>
+    </div>
+    <div class="pastProjects">
+      <div class="pastProjectsHeader">
+        <h1>Past Projects</h1>
+      </div>
+      <div class="pastProjectsContent">
+          <div class="pastProjectsContentInd">
+            <img src="../img\sampleImg.jpg" alt="project example">
+            <p>Spicy jalapeno bacon ipsum dolor amet shank meatloaf capicola bresaola sirloin venison frankfurter, pork spare ribs drumstick rump chuck picanha. Salami buffalo rump, meatball turducken ham hock ribeye short ribs landjaeger tongue pork chop capicola. Tail porchetta bacon corned beef doner buffalo. Cow pork loin hamburger, burgdoggen pancetta tenderloin tail chuck rump drumstick. Beef turkey bresaola alcatra.</p>
+          </div>
+          <div class="pastProjectsContentInd">
+            <img src="../img\sampleImg.jpg" alt="project example">
+            <p>Spicy jalapeno bacon ipsum dolor amet shank meatloaf capicola bresaola sirloin venison frankfurter, pork spare ribs drumstick rump chuck picanha. Salami buffalo rump, meatball turducken ham hock ribeye short ribs landjaeger tongue pork chop capicola. Tail porchetta bacon corned beef doner buffalo. Cow pork loin hamburger, burgdoggen pancetta tenderloin tail chuck rump drumstick. Beef turkey bresaola alcatra.</p>
+          </div>
+          <div class="pastProjectsContentInd">
+            <img src="../img\sampleImg.jpg" alt="project example">
+            <p>Spicy jalapeno bacon ipsum dolor amet shank meatloaf capicola bresaola sirloin venison frankfurter, pork spare ribs drumstick rump chuck picanha. Salami buffalo rump, meatball turducken ham hock ribeye short ribs landjaeger tongue pork chop capicola. Tail porchetta bacon corned beef doner buffalo. Cow pork loin hamburger, burgdoggen pancetta tenderloin tail chuck rump drumstick. Beef turkey bresaola alcatra.</p>
+          </div>
+      </div>
+    </div>
+    <footer class="page-footer lime darken-4">
+           <div class="container">
+             <div class="row">
+               <div class="col l6 s12">
+                 <h5 class="white-text">JUNGLE BUNCH CREATIONS</h5>
+                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+               </div>
+               <div class="col l4 offset-l2 s12">
+                 <h5 class="white-text">Social Platforms</h5>
+                 <ul>
+                   <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.facebook.com/Jungle-Bunch-Creations-360239224617937/?modal=admin_todo_tour">Facebook</a></li>
+                   <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                   <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+           <div class="footer-copyright">
+             <div class="container">
+             © 2019 Copyright JUNGLE BUNCH CREATIONS
+             <a class="grey-text text-lighten-4 right" href="#!">junglebunchcreations@gmail.com</a>
+             </div>
+           </div>
+      </footer>
+  </body>
+</html>
